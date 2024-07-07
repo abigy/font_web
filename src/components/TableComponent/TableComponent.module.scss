@@ -1,0 +1,22 @@
+.tableComponent__wrapper {
+  .export__btn {
+    margin-right: 12px;
+  }
+
+  .export__btn,
+  .deleteAll__btn {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: var(--TEXT-color);
+    background-color: var(--BTN-color);
+
+    &:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+}

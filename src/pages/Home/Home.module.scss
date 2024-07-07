@@ -1,0 +1,23 @@
+.home__wrapper {
+  .slider__section {
+    text-align: center;
+    margin: 32px auto;
+  }
+
+  .product__section {
+    margin: 32px 128px;
+
+    .product__header {
+      padding: 12px 6px;
+      color: var(--WHITE);
+      background-color: var(--BG-a06);
+    }
+
+    .product__list {
+      display: grid;
+      gap: 4px;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+      margin: 12px 0;
+    }
+  }
+}

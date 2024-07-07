@@ -1,0 +1,48 @@
+.cardProduct__wrapper {
+  width: 236px;
+  padding: 10px;
+  margin-bottom: 6px;
+  border-radius: 12px;
+  transition: 0.2s;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 10px var(--BG-a06);
+  }
+
+  .product__img {
+    text-align: center;
+
+    img {
+      height: auto;
+      width: 160px;
+    }
+  }
+
+  .product__infor {
+    font-size: 16px;
+    padding: 6px 12px;
+
+    .product__des {
+      padding: 6px 0;
+    }
+
+    .product__price {
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+
+      .product__show {
+        color: red;
+        font-weight: 600;
+      }
+
+      .product__through {
+        color: #707070;
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: line-through;
+      }
+    }
+  }
+}

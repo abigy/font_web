@@ -1,0 +1,29 @@
+.adminProduct__wrapper {
+  height: 100%;
+  margin: 12px;
+
+  .adminProduct__header {
+    margin-bottom: 24px;
+  }
+
+  .btn__section {
+    margin-bottom: 16px;
+
+    .adminProduct__btn {
+      font-size: 60px;
+      height: 150px;
+      width: 150px;
+      border: dashed;
+      outline: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      color: var(--BTN-color);
+      opacity: 0.6;
+
+      &:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
+    }
+  }
+}

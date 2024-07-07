@@ -1,0 +1,27 @@
+.type-btn {
+    display: flex;
+    margin-left: 20rem;
+
+    .btns {
+        padding: 10px 20px;
+        margin-right: 6px;
+        background: transparent;
+        border: none;
+        border: 0.6px solid #ccc;
+        border-radius: 5px;
+        color: #323232;
+        cursor: pointer;
+    }
+
+    .btns:hover {
+        background-color: #ededed;
+    }
+}
+
+.type-title {
+    margin-left: 20rem;
+    margin-bottom: 20px;
+    margin-top: 2.5rem;
+    font-size: 20px;
+    font-family: sans-serif;
+}
