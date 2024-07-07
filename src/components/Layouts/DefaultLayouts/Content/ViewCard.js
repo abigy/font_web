@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
+import ViewDetails from "../Product/ViewDetails/ViewDetails";
+import toggleModal from "../Product/ViewDetails/ViewDetails"
 import { IoCloseCircle } from "react-icons/io5";
-import { useParams } from "react-router-dom";
 import * as ProductService from '../../../../ProductService'
 import { useQuery } from "@tanstack/react-query";
-
+import './ViewCard.scss'
 
 function ViewCard({ productdb }) {
   const [modal, setModal] = useState(false)
@@ -35,9 +36,6 @@ function ViewCard({ productdb }) {
     selled: '',
     description: '',
   })
-
-  console.log('details: ', detail)
-  const { id: productId } = useParams()
 
   const toggleModal_getData = (products) => {
     setModal(!modal)
